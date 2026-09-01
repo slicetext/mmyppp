@@ -26,7 +26,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
     scroll-snap-align: center;
 }
 
@@ -65,4 +66,14 @@
     transparent 75%,
     rgba(0, 0, 0, 0.4) 100%
   );
+}
+
+#sources-button {
+    background-color: #ffeeee;
+    padding: 1vw;
+    border-radius: 10%;
+    position: fixed;
+    bottom: 2vh;
+    left: 2vw;
+    border: none;
 }

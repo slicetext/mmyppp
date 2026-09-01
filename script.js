@@ -22,3 +22,8 @@ window.addEventListener('keydown', (e) => {
     container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
   }
 });
+
+const sources_button = document.getElementById('sources-button');
+sources_button.addEventListener('click', function() {
+    window.scrollBy({ top: window.innerHeight, behavior: 'smooth' });
+});
