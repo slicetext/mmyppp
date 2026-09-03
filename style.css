@@ -41,9 +41,14 @@
     display: inline-block;
 }
 
+#timeline-title {
+    font-weight: bold;
+}
+
 #timeline-description {
     width: 25vw;
     text-wrap: wrap;
+    text-align: center;
 }
 
 #timeline-img {
