@@ -70,10 +70,18 @@
 
 #sources-button {
     background-color: #ffeeee;
+    color: black;
     padding: 1vw;
     border-radius: 10%;
     position: fixed;
     bottom: 2vh;
     left: 2vw;
     border: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    * {
+        background-color: #242729;
+        color: white;
+    }
 }
