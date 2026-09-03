@@ -82,6 +82,11 @@
     bottom: 2vh;
     left: 2vw;
     border: none;
+    cursor: pointer;
+}
+
+#sources-button:hover {
+    background-color: #dddddd;
 }
 
 @media (prefers-color-scheme: dark) {
